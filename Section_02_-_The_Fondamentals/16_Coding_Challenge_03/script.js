@@ -33,7 +33,7 @@ const averageScoreKoalas = (koalasScores.reduce((a, b) => a + b, 0) / koalasScor
 console.log("Average score of the Dolphins = " + averageScoreDolphins + ".");
 console.log("Average score of the Koalas = " + averageScoreKoalas + ".");
 
-console.log(averageScoreDolphins == averageScoreKoalas ? ("Draw! Average score = " + averageScoreDolphins + ".") : ("The winners are the " + (averageScoreDolphins > averageScoreKoalas ? "Dolphins with an average score of = " + averageScoreDolphins : "Koalas with an average score of = " + averageScoreKoalas) + "."));
+console.log(averageScoreDolphins === averageScoreKoalas ? ("Draw! Average score = " + averageScoreDolphins + ".") : ("The winners are the " + (averageScoreDolphins > averageScoreKoalas ? "Dolphins with an average score of = " + averageScoreDolphins : "Koalas with an average score of = " + averageScoreKoalas) + "."));
 
 // BONUS 1
 console.log("\nBonus 1");
@@ -47,7 +47,7 @@ const averageScoreKoalasBonus1 = (koalasScoresBonus1.reduce((a, b) => a + b, 0) 
 console.log("Average score of the Dolphins = " + averageScoreDolphinsBonus1 + ".");
 console.log("Average score of the Koalas = " + averageScoreKoalasBonus1 + ".");
 
-if (averageScoreDolphinsBonus1 == averageScoreKoalasBonus1) {
+if (averageScoreDolphinsBonus1 === averageScoreKoalasBonus1) {
     console.log("Draw! Average score = " + averageScoreDolphinsBonus1 + ".")
 } else if (averageScoreDolphinsBonus1 >= 100 && averageScoreKoalasBonus1 >= 100) {
     console.log("The winners are the " + (averageScoreDolphinsBonus1 > averageScoreKoalasBonus1 ? ("Dolphins with an average score of = " + averageScoreDolphinsBonus1) : ("Koalas with an average score of = " + averageScoreKoalasBonus1)) + ".");
@@ -72,7 +72,7 @@ console.log("Average score of the Dolphins = " + averageScoreDolphinsBonus2 + ".
 console.log("Average score of the Koalas = " + averageScoreKoalasBonus2 + ".");
 
 if (averageScoreDolphinsBonus2 >= 100 && averageScoreKoalasBonus2 >= 100) {
-    if (averageScoreDolphinsBonus2 == averageScoreKoalasBonus2) {
+    if (averageScoreDolphinsBonus2 === averageScoreKoalasBonus2) {
         console.log("Draw! Average score = " + averageScoreDolphinsBonus2 + ".")
     } else {
         console.log("The winners are the " + (averageScoreDolphinsBonus2 > averageScoreDolphinsBonus2 ? ("Dolphins with an average score of = " + averageScoreDolphinsBonus2) : ("Koalas with an average score of = " + averageScoreDolphinsBonus2)) + ".");
