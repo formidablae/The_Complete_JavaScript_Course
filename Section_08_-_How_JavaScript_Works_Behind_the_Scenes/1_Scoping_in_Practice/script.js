@@ -1,4 +1,4 @@
-'use script';
+'use sctict';
 
 // Practicing scoping
 
