@@ -1,4 +1,4 @@
-'use script';
+'use strict';
 
 // Hoisting and TDZ in Practice
 
